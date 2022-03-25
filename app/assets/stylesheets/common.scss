@@ -1,0 +1,109 @@
+body {
+  position: relative;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  width: 100%;
+  padding: 10px;
+  background: #c52f24;
+  color: #fff;
+  display: block;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+.main_container {
+  margin: 50px 15px;
+  display: block;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+table {
+  display: table;
+  border-collapse: collapse;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+thead, tbody {
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tbody {
+  display: table-row-group;
+}
+
+th, td {
+  border: solid 1px black;
+  padding: 10px 20px;
+}
+
+th {
+  background-color: #ffdfdf;
+}
+
+td {
+  background-color: #f1c8c861;
+  text-align: center; 
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  width: 350px;
+  height: 200px;
+  font-size: 16px;
+}
+
+.alert {
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+}
+
+.alert_success {
+  background-color: #98ecaa7a;
+  border: 2px solid #5cd075;
+}
+
+.alert_delete, .alert_failure {
+  background-color: #ec98ac8f;
+  border: 2px solid #ec7592;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+input[type=submit] {
+  width: auto;
+}
+
+
